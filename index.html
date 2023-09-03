@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt" class="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./style.min.css">
 </head>
 
-<body class="bg-gray-100 h-screen m-5">
+<body class="bg-white dark:bg-gray-700">
 
   <!-- Bordas -->
   <!-- <div class="m-8 p-4 border-l-2 border-red-400">
@@ -53,15 +53,35 @@
     <div class="bg-blue-400 text-center p-2">9</div>
   </div> -->
 
-  <h1 class="text-gray-300 hover:text-gray-950 hover:underline hover:cursor-pointer">
+  <!-- <h1 class="text-brand-100 hover:text-gray-950 dark:hover:text-gray-100  hover:underline hover:cursor-pointer">
     Hello word
   </h1>
 
-  <div class="group w-72 bg-gray-200 p-4">
-    <h4 class="font-bold group-hover:text-blue-300">Titulo do meu card</h4>
+  <div class="group w-72 bg-gray-200 p-4 border-solid border-2 border-blue-300">
+    <h4 class="font-bold group-hover:text-blue-300 dark:group-hover:text-blue-700">Titulo do meu card</h4>
     <p class="text-gray-500 text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum, fugiat aperiam quidem consequuntur</p>
   </div>
-  <button class="mt-5 w-80 h-12 bg-brand border-solid border-4 border-black focus:bg-blue-500">Clique aqui</button>
+  <button class="mt-5 w-80 h-12 bg-brand border-solid border-4 btn border-black focus:bg-brand-400 dark:focus:bg-brand-100">Clique aqui</button> -->
+
+  <div class="container mx-auto px-4 py-8 bg-white-500">
+    <h6 class="font-bold mb-2 dark:text-white">Component card</h6>
+
+    <div class="bg-white dark:bg-gray-900 dark:text-white rounded-lg shadow-lg">
+      <div class="rounded-t-lg w-full bg-gray-50 dark:bg-gray-700 p-4 border-b border-gray-500 dark:border-gray-50">
+        <h4 class="font-semibold">Titulo do card</h4>
+      </div>
+
+      <div class="p-4">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus voluptas fugit atque, impedit architecto facere fuga nesciunt distinctio veritatis sed, consequatur quis, deserunt quos. Delectus eligendi nihil repellendus reprehenderit incidunt?
+      </div>
+
+      <div class="bg-white rounded-lg shadow-lg">
+        <div class="rounded-b-lg w-full bg-gray-50 p-4 border-t border-gray-800 dark:border-gray-50 dark:bg-gray-700">
+          <h4 class="font-semibold">Titulo do rodapé</h4>
+        </div>
+
+      </div>
+    </div>
 </body>
 
 </html>
